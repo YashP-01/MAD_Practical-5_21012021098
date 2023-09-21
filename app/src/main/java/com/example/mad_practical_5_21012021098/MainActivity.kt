@@ -11,7 +11,6 @@ import android.provider.MediaStore
 import android.widget.Button
 import android.widget.EditText
 
-class MainActivity : AppCompatActivity() {
     class MainActivity : AppCompatActivity() {
         @SuppressLint("MissingInflatedId")
         override fun onCreate(savedInstanceState: Bundle?) {
@@ -76,4 +75,4 @@ class MainActivity : AppCompatActivity() {
         fun onAlarm()
         {
             Intent(AlarmClock.ACTION_SHOW_ALARMS).also { startActivity(it) }
-        }}}
+        }}
